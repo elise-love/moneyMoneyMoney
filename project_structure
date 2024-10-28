@@ -1,1 +1,25 @@
+money_management_app/
+|
+¢u¢w¢w manage.py					#Django management script
+¢u¢w¢w requirements.txt
+¢u¢w¢w READ.md
+¢u¢w¢w 
+|
+¢u¢w¢w config/						#configuration dictionary
+|	¢u¢w¢w settings.py				#main setting for Django
+|	¢u¢w¢w urls.py					#url configuration
+|	¢|¢w¢wwsgi.py					#web server gateway interface
+|
+¢u¢w¢w money_manager/				#core app dictionary
+|	¢u¢w¢w_init__.py				
+|	¢u¢w¢wmodels.py				#database models
+|   ¢u¢w¢wviews.py					# Business logic and API endpoints
+|	¢u¢w¢wurls.py					#app-specific urls
+|	¢u¢w¢wserislizers.py			#Django REST FR=ramework serializers
+|	¢u¢w¢wadmin.py					#admin interface configuration
+|	¢|¢w¢w tasks.py                     # Background tasks (e.g., reminders)
 
+
+'''
+
+'''
